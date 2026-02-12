@@ -17,7 +17,7 @@ A Scala application that reads a stream of words from stdin and prints an update
 
 ## Building the Application
 
-    sbt assembly
+    sbt stage
 
 ## Running the Application
 

@@ -281,7 +281,6 @@ project/plugins.sbt         - Build plugins (JavaAppPackaging, sbt-assembly)
 
 ### Build
 ```bash
-sbt compile
 sbt stage
 ```
 
