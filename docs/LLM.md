@@ -95,7 +95,7 @@ class ConsoleObserver extends WordCloudObserver {
       .map { case (word, freq) => s"$word: $freq" }
       .mkString(" ")
     
-    println(formatted)
+    System.out.println(formatted)
     System.out.flush()
   }
 }
@@ -300,4 +300,5 @@ sbt test
 ## Conclusion
 
 The TopWords application successfully implements a sliding-window word frequency analyzer that meets all narrative requirements. The iterative development process with LLM assistance efficiently identified and resolved build configuration issues, particularly around stdin handling when running through the sbt build tool. The final executable built with universal packager works reliably with piped input and output.
+
 
