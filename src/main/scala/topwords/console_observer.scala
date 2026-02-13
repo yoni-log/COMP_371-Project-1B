@@ -10,7 +10,7 @@ class ConsoleObserver extends WordCloudObserver {
       .map { case (word, freq) => s"$word: $freq" }
       .mkString(" ")
     
-    println(formatted)
+    System.out.println(formatted)
     System.out.flush()
   }
 }
